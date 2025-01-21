@@ -11,4 +11,6 @@ COPY target/my-app-1.0-SNAPSHOT.jar app.jar
 EXPOSE 8082
 
 # Run the application
+#RUN chmod +x /path/to/myapp.jar
+RUN chmod +X /var/lib/jenkins/workspace/simple maven22/target/my-app-1.0-SNAPSHOT.jar
 ENTRYPOINT ["java", "-jar", "target/app.jar"]
