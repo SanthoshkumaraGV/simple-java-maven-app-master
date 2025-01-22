@@ -9,7 +9,7 @@ WORKDIR /app
 COPY . /app
 #RUN chmod +x /target/app.jar
 # Expose the port
-EXPOSE 8082
+EXPOSE 8080
 
 # Run the application
 #RUN chmod +x /path/to/myapp.jar
