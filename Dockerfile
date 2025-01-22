@@ -14,4 +14,4 @@ EXPOSE 8082
 # Run the application
 #RUN chmod +x /path/to/myapp.jar
 
-ENTRYPOINT ["java", "-jar", "target/app.jar"]
+ENTRYPOINT ["java", "-jar", "app.jar"]
